@@ -22,6 +22,6 @@ Criar uma api
 Consumir a API
 
 - [x] jsonplaceholder (https://jsonplaceholder.typicode.com/users)
-- [] usar axios
+- [x] usar axios
 - [x] semelhanças entre axios e fetch
 - [x] usar try/catch
