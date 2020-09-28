@@ -15,14 +15,4 @@ app.get("/", async (req, res) => {
   }
 });
 
-app.get("/user", async (req, res) => {
-  try {
-    // response é a resposta do axios MAS eu tiro o data de dentro do response
-    const { data } = await axios("https://api.deezer.com/user");
-    return res.json(data);
-  } catch (error) {
-    console.error(error);
-  }
-});
-
 app.listen(process.env.PORT || 3000);
